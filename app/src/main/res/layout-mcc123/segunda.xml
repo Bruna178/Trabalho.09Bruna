@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="413dp"
+        android:layout_height="65dp"
+        android:background="@color/black"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-4dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable"
+        tools:layout_editor_absoluteY="13dp" />
+
+    <CheckBox
+        android:id="@+id/opcaoexlongo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expresso longo"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="206dp" />
+
+    <CheckBox
+        android:id="@+id/achocolatado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Achocolatado"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="254dp" />
+
+    <CheckBox
+        android:id="@+id/opcaoExpresso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#9C27B0"
+        android:text="Expresso"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="158dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="FECHAR PEDIDO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="229dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/black"
+        android:text="CANCELAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="452dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
